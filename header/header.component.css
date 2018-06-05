@@ -1,0 +1,65 @@
+
+		body
+		{
+			background-color: #F6F6F6;
+		}
+		.main-wrapper{
+			width:100%;
+			display:block;
+			height:auto;
+		}
+		.page_header__header_container, .our-receipe-section, .footer-container
+		{
+		    width: 100%;
+			max-width: 1200px;
+			margin: 0px auto;
+			padding-top: 51px;
+		}
+		.header_menu--title-label
+		{
+			float:left;
+			padding: 14px 16px;
+		}
+		.header_menu--title-label a
+		{
+			color: #E9474B;
+			font-size: 20px;
+			position: absolute;
+			text-decoration: none;
+			padding-left: 111px;
+		}
+		.page_header__header_container ul.header_menu 
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		.header_menu--logo
+		{
+			position: absolute;
+			top: 35px;
+		}
+		.header_menu_align
+		{
+			float:right;
+		}
+
+		.page_header__header_container ul.header_menu li.menu-items 
+		{
+			display:inline-block;
+		}
+
+		.page_header__header_container ul.header_menu li.menu-items  a 
+		{
+			display: block;
+			color: #4A4A4A;;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 16px;
+        }
+        .page_header__header_container ul.header_menu li.menu-items  a:hover 
+		{
+		   color:red;
+		}
