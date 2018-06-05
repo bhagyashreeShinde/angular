@@ -1,0 +1,219 @@
+.our-receipe-title
+{
+    color: #4A4A4A;	
+    font-size: 40px;	
+    letter-spacing: 0.3px;
+    line-height: 47px;
+    margin-bottom:40px;
+}
+
+.filterbutton {
+    background-color: #E9474B;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 25px 34px;
+    font-size: 17px;
+    height: 70px;
+    width: 290px;
+    text-align: left;
+}
+
+.filterbutton:hover {
+    background-color:#E9474B;
+}
+
+.filterdetail {
+    color: white;
+    display: block;
+    margin-top:20px;
+    background-color: #E9474B;
+    padding-left: 25px;
+    
+}
+.filterbutton:after 
+{
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after 
+{
+    content: '\002D';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.our-receipe-cards-detail-title
+{
+    margin-top: 23px;
+    padding-bottom:35px;
+}
+
+.our-receipe-cards-detail-image img
+{
+    width:290px;
+}
+.our-receipe-cards-detail
+{
+    background-color: #fff;
+    padding: 28px 16px;
+}
+
+.our-receipe-cards-section
+{
+    display: inline-block;
+}
+.our-receipe-cards-detail-cuisine
+{
+    float: right;
+}
+.our-receipe-sortby-section
+{
+    display:inline-block;
+    padding-left: 30px;
+}
+.our-receipe-cards-section-wrapper
+{
+    margin-top: 50px;
+    margin-bottom:38px;
+}
+.our-receipe-cards-section-grid
+{
+    margin-bottom: 30px;
+}
+
+.our-receipe-sortby-section select
+{
+    height: 50px;	width: 192px;	border: 2px solid #2F363E;	border-radius: 4px;	background-color: #FFFFFF; margin-left:20px;
+}
+
+.our-receipe-sortby-section select
+{
+    padding: 15px 20px;
+}
+
+.our-receipe-search-section
+{
+    float:right;
+}
+.our-receipe-search-section span
+{
+    color: #4A4A4A;	font-size: 18px;	letter-spacing: 0.18px;	line-height: 21px;
+}
+.our-receipe-cards-section-wrapper ul
+{
+    margin-bottom:46px;
+}
+.our-receipe-returntotop-section
+{
+    cursor: pointer;color: #E9474B;	font-size: 18px;	letter-spacing: 0.19px;	line-height: 21px; margin-top:46px;
+}
+.our-receipe-cards-section-wrapper ul li{
+    padding:0px;
+}
+ul{padding:0px;}
+.our-receipe-cards-section-grid
+{
+    width: 290px;
+    float: left;
+    list-style: none outside none;
+    margin-left: 13px;
+}
+li.our-receipe-cards-section-grid:first-child {
+    margin: 0px;
+}
+.our-receipe-filter-title label
+{
+    color: #FFFFFF;	
+    font-size: 20px;
+    letter-spacing: 0.15px;	
+    line-height: 23px;
+}
+.our-receipe-filter-detail
+{
+    
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #FFFFFF;	font-size: 18px;	letter-spacing: 0.14px;	line-height: 30px;
+    
+}
+.our-receipe-filter-detail input[type="radio" i], .our-receipe-filter-detail input[type="checkbox" i]
+{
+    height: 25px;	
+    width: 25px;	
+    background-color: #FFFFFF; 
+    margin-right: 10px; 
+}
+
+.our-receipe-filter-detail input[type="checkbox" i]:before
+{
+        border-radius: 50%;
+}
+.our-receipe-filter-detail label
+{
+    position: absolute;
+}
+.our-receipe-filter-section-foodtype
+{
+    border-right:2px solid #fff;
+    width: 260px;
+    display: inline-block;
+}
+.our-receipe-filter-section-nationality
+{
+    display: inline-block;
+    position: absolute;
+    padding-left: 26px;
+}
+.our-receipe-filter-section-nationality .our-receipe-filter-detail ul li
+{
+    width: 290px;
+    float: left;
+}
+.our-receipe-section
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search-box
+{
+    width:0px;
+}
+.filter-search-box
+{
+    float:none;
+}
+.filter-search-box{
+    height: 21px;
+    color: #4A4A4A;
+    font-family: ".SF NS Display";
+    letter-spacing: 0.18px;
+    line-height: 21px;
+    float: right;
+    display: block;
+
+}
+.search-box{
+    background-image: url(assets/image/search-icon.png);
+    background-repeat: no-repeat;
+    border: none;
+    padding-left: 31px;
+    font-size: 18px;
+    height: 36px;
+    border: 2px solid #2F363E;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 140px;
+}
+ul#nationality-list
+{
+    list-style: none;
+}

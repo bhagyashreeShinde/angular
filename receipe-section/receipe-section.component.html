@@ -1,0 +1,151 @@
+<div class="our-receipe-section">
+	<div class="our-receipe-title">
+		<label>Our Recipes</label>
+	</div>
+	
+	<div class="our-receipe-filter-section">
+  <button class="filterbutton" (click)="openFilter('filter', this, '#E9474B')">Filter recipes by</button>
+	<div class="our-receipe-sortby-section"> 
+	<span>Sort By</span>
+		<select>
+			  <option value="1">Newest First</option>
+			  <option value="2">Newest Second</option>
+			  <option value="3">Newest Third</option>
+		</select>
+	</div>
+	
+	<div class="our-receipe-search-section">
+		
+		<div class="filter-search-box">
+
+			<input type="txt" class="search-box" placeholder="Search Value " value="">
+
+		</div>
+	</div>
+	</div>
+	
+	<div id="filter" class="filterdetail">
+	<div class="our-receipe-filter-detail">
+	 <div class="our-receipe-filter-section-foodtype">
+		<div class="our-receipe-filter-title">
+			<label>Food type:</label>
+		</div>
+		<div class="our-receipe-filter-detail">
+			<form action="">
+			  <input type="radio" name="foodType" value="Appetiser"><label class="radio-custom-label"> Appetiser</label><br>
+			  <input type="radio" name="foodType" value="Mains"> <label class="radio-custom-label"> Mains</label><br>
+			  <input type="radio" name="foodType" value="Desserts"><label class="radio-custom-label">  Desserts</label>
+			</form>
+		</div>
+	 </div>
+	 
+	 <div class="our-receipe-filter-section-nationality">
+		<div class="our-receipe-filter-title">
+			<label>Nationality:</label>
+		</div>
+		<div class="our-receipe-filter-detail">
+			<ul id="nationality-list">
+				<li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(34)</label><br></li>
+				<li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(35)</label><br></li>
+				<li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(36)</label><br></li>
+				<li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(39)</label><br></li>
+				<li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(34)</label><br></li>
+				<li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(70)</label><br></li>
+        <li> <input type="checkbox" name="nationality" value="indian"><label class="radio-custom-label"> Indian(5)</label></li>
+      </ul>
+		</div>
+	 </div>
+	 
+	</div>
+	</div>
+	
+	<div class="our-receipe-cards-section-wrapper">
+	<ul>
+		<li class="our-receipe-cards-section-grid">
+			<div class="our-receipe-cards-section">
+				<div class="our-receipe-cards">
+					<div class="our-receipe-cards-detail">
+						<div class="our-receipe-cards-detail-date">
+							<span>5TH MARCH 2016</span>
+							<span class="our-receipe-cards-detail-cuisine">Thai</span>
+						</div>
+						<div class="our-receipe-cards-detail-title">
+							<label>Thai Yellow Curry Noodles with Shiitake Mushrooms</label>
+						</div>
+					</div>
+					<div class="our-receipe-cards-detail-image">
+						<img src="../assets/image/recipe2.png" />
+					</div>
+				</div>
+			</div>
+		</li>
+	
+	
+		<li class="our-receipe-cards-section-grid">
+			<div class="our-receipe-cards-section">
+				<div class="our-receipe-cards">
+					<div class="our-receipe-cards-detail">
+						<div class="our-receipe-cards-detail-date">
+							<span>5TH MARCH 2016</span>
+							<span class="our-receipe-cards-detail-cuisine">Thai</span>
+						</div>
+						<div class="our-receipe-cards-detail-title">
+							<label>Thai Yellow Curry Noodles with Shiitake Mushrooms</label>
+						</div>
+					</div>
+					<div class="our-receipe-cards-detail-image">
+						<img src="../assets/image/recipe2.png" />
+					</div>
+				</div>
+			</div>
+		</li>
+	
+	
+		<li class="our-receipe-cards-section-grid">
+			<div class="our-receipe-cards-section">
+				<div class="our-receipe-cards">
+					<div class="our-receipe-cards-detail">
+						<div class="our-receipe-cards-detail-date">
+							<span>5TH MARCH 2016</span>
+							<span class="our-receipe-cards-detail-cuisine">Thai</span>
+						</div>
+						<div class="our-receipe-cards-detail-title">
+							<label>Thai Yellow Curry Noodles with Shiitake Mushrooms</label>
+						</div>
+					</div>
+					<div class="our-receipe-cards-detail-image">
+						<img src="../assets/image/recipe2.png" />
+					</div>
+				</div>
+			</div>
+		</li>
+	
+	
+		<li class="our-receipe-cards-section-grid">
+			<div class="our-receipe-cards-section">
+				<div class="our-receipe-cards">
+					<div class="our-receipe-cards-detail">
+						<div class="our-receipe-cards-detail-date">
+							<span>5TH MARCH 2016</span>
+							<span class="our-receipe-cards-detail-cuisine">Thai</span>
+						</div>
+						<div class="our-receipe-cards-detail-title">
+							<label>Thai Yellow Curry Noodles with Shiitake Mushrooms</label>
+						</div>
+					</div>
+					<div class="our-receipe-cards-detail-image">
+						<img src="../assets/image/recipe2.png" />
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<div class="our-receipe-returntotop-section"> 
+	<div id="scrollToTop" (click)="scrollToTop()"> Return to the top</div>
+
+	</div>
+	
+	</div>
+	
+	</div>
+	
