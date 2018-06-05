@@ -1,0 +1,80 @@
+.receipe_section_image
+		{
+			width:70%;
+			background-color: #cecece;
+			display: inline-block;
+			height:520px;
+			float: left;
+		}
+		
+		.receipe_section_image img
+		{
+			width:100%;
+			height:520px;
+		}
+		.receipe_section_detail_title_section1
+		{
+			color: #FFFFFF;
+			font-size: 18px;
+			letter-spacing: 0.3px;
+			line-height: 21px;
+		}
+		
+		.receipe_section_detail
+		{
+			height: 520px;	
+			width:30%;	
+			background-color: #E9474B;
+			display: inline-block;
+			float: left;
+		}
+		.receipe_section_detail_block
+		{
+			padding-top:46px;
+			padding-left:36px;
+			padding-right:26px;
+		}
+		
+		.receipe_section_detail_title_section2
+		{
+			color: #FFFFFF;
+			font-size: 40px;	
+			letter-spacing: 0.3px;	
+			line-height: 47px;
+			margin-top: 12px;
+			height: 165px;
+		}
+		
+		.receipe_section_detail_content
+		{
+			color: #FFFFFF;	
+			font-size: 18px;	
+			letter-spacing: 0.3px;	
+			line-height: 26px;
+		}
+		.receipe_section_detail_button
+		{
+			margin-top:33px;
+			
+		}
+		
+		.receipe_section_detail_button button
+		{
+			color: #4A4A4A;	
+			font-size: 18px;	
+			letter-spacing: 0.14px;	
+			line-height: 21px;
+			height: 50px;	
+			width: 169px;	
+			border-radius: 4px;	
+			background-color: #FFFFFF;
+		}
+		
+		.receipe_section_detail_button button a
+		{
+			color: #4A4A4A;	
+			font-size: 18px;	
+			letter-spacing: 0.14px;	
+			line-height: 21px;
+			text-decoration:none;
+		}
