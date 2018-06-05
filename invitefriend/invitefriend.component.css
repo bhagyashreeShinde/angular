@@ -1,0 +1,80 @@
+.invitefriend-section-friendlist ul li, .invitefriend-section-addfriend ul li
+{
+    display: inline-block;
+    width: 280px;
+    margin-right: 30px;
+}
+.invitefriend-section-friendlist ul li:last-child,  .invitefriend-section-addfriend ul li:last-child
+{
+    margin-right: 0px;
+    width: 250px;
+    text-align:center;
+}
+
+.invitefriend-section-friendlist-label
+{
+        color: #FFFFFF;	font-size: 18px;	letter-spacing: 0.23px;	line-height: 21px; margin-bottom:12px;
+}
+.invitefriend-section-friendlist-input
+{
+        height: 50px;	width: 280px;	border-radius: 4px;	background-color: #F6F6F6;
+}
+.invitefriend-section-friendlist
+{
+    margin-bottom:30px;
+    margin-top:33px;
+}
+.invitefriend-section-friendlist-hr
+{
+    box-sizing: border-box;	height: 3px;	border: 1px solid #FFFFFF;
+}
+.invitefriend-section-addfriendbutton
+{
+    color: #FFFFFF;	font-size: 18px;	letter-spacing: 0.23px;	line-height: 21px;
+    height: 50px;	width: 200px;	border: 1px solid #FFFFFF;	border-radius: 4px;
+    background-color: transparent;
+}
+.invitefriend-section-addfriendsendbutton
+{
+    height: 50px;	width: 183px;	border-radius: 4px;	background-color: #FFFFFF; 
+    
+}
+.invitefriend-section-sendButton
+{
+    margin-top:60px;
+    text-align:center
+}
+.invitefriend-section-addfriendsendbutton
+{
+        color: #4A4A4A;	font-size: 18px;	letter-spacing: 0.23px;	line-height: 21px;
+}
+.invitefriend-section-friendlist-label img
+{
+    height: 18px;
+    width: 14px;
+}
+.invitefriend-section-wrapper
+{
+    background-color: #E9474B;
+    width: 100%;
+}
+.invitefriend-section-container
+{
+    margin: 0px auto;
+    padding-top: 62px;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 62px;
+}
+.invitefriend-section-title label
+{
+    color: #FFFFFF;	font-size: 40px;	letter-spacing: 0.52px;	line-height: 47px;
+}
+.invitefriend-section-content
+{
+    height: 42px;color: #FFFFFF;font-size: 18px;	letter-spacing: 0.23px;	line-height: 21px;margin-top: 16px;
+}
+.invitefriend-section-addfriend ul
+{
+    padding: 0px;
+}

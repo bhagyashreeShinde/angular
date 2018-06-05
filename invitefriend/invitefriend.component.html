@@ -1,0 +1,46 @@
+<div class="invitefriend-section-wrapper">
+  <div class="invitefriend-section-container">
+    <div class="invitefriend-section-title">
+      <label> Spread the word! </label>
+    </div>
+    <div class="invitefriend-section-content">
+      <label>Our recipes are awesome, sign up to our newsletter and invite friends to join the Gilled Prawn cult </label>
+    </div>
+    <div class="invitefriend-section-friendlist-section" [formGroup]="inviteFriendsForm">
+      <div class="invitefriend-section-friendlist">
+
+      </div>
+      <hr class="invitefriend-section-friendlist-hr"/>
+      
+      
+      <div *ngFor="let array of inviteFriendsForm.get('inviteFormArray').controls" [formGroupName]="i"  class="invitefriend-section-addfriend">
+          <ul>
+            <li>
+              
+                <label class="invitefriend-section-friendlist-label">Name</label>
+                <input [formGroupName]="i" formControlName="firstName" type="text"  class="invitefriend-section-friendlist-input">
+              
+            </li>
+            <li>
+              
+                <label class="invitefriend-section-friendlist-label">Surname</label>
+                <input formControlName="surName" type="text" class="invitefriend-section-friendlist-input">
+              
+            </li>
+            <li>
+              
+                <label class="invitefriend-section-friendlist-label">Email Address</label>
+                <input formControlName="email" type="text" class="invitefriend-section-friendlist-input">
+              
+            </li>
+            <li><div><button class="invitefriend-section-addfriendbutton" (click)="addFriend(array)">Add Friend</button></div></li>
+          </ul>
+      </div>
+      
+      <div class="invitefriend-section-sendButton">
+        <button class="invitefriend-section-addfriendsendbutton">Send</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
